@@ -1,3 +1,5 @@
+Presentation slides: https://docs.google.com/presentation/d/1kOK2lGOjjBvcltexvGphPYB9Rpo_300quQTd0RlQ2_4/edit?usp=sharing
+
 To train SRGAN, open SRGANvgg-tf.ipynb and run (set the appropriate downsample factor 4 or 8). 
 
 To train ResNet, open command line. Run python resnet_cl.py -s [scale] -g[or -ng]. -s to specify the scale of image (1 = ground truth, 4 = downsample by 4, 8 = downsample by 8). To use SRGAN, specify -g, if not specify -ng. Note that you need to have pretrained SRGAN4/SRGAN8 model folders before using -g. 
